@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content p {
+  font-family: 'Rowdies', cursive;
+  font-size: 6vw;
+  margin-left: auto;
+  text-transform: capitalize;
+  color: rgb(132 112 112);
+}
+
+@media (max-width: 724px) {
+  .content p {
+    color: rgb(255, 238, 0);
+  }
+}
